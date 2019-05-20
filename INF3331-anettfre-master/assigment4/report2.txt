@@ -1,0 +1,6 @@
+Parameters used to generate images: min1 = -2.0, min2 = -1.25, max1 = 0.5, max2 = 1.25, z1 = 1000, z2 = 1000, numberOfIerations = 1000
+
+Runtime for mandelbrot_1, plain python: 43.768 sec
+Runtime for mandelbrot_2, with numpy:   19.522 sec
+
+Gained by switching to numpy: 24.246

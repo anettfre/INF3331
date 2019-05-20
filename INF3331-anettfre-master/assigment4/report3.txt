@@ -1,0 +1,14 @@
+Parameters used to generate images: min1 = -2.0, min2 = -1.25, max1 = 0.5, max2 = 1.25, z1 = 1000, z2 = 1000, numberOfIerations = 1000
+
+Runtime for mandelbrot_1, plain python: 43.768 sec
+Runtime for mandelbrot_2, with numpy:   19.522 sec
+Runtime for mandelbrot_3, with numba:   4.965 sec
+
+Gained by switching to numba from plain python: 38.803
+Gained by switching to numba from numpy:        14.557
+
+Advantage for numba: It is faster.
+          If you have a differential equation the next value is dependent on the other
+          and it would not work in numpy since numpy would try and do it all at the same time
+
+Disadvantage: Restrictions to what it can be applied to

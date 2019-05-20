@@ -1,0 +1,9 @@
+"(//.*(?:$|\n))": comment
+"(/\*(.|[\r\n])*?\*/)": comment2
+"(\b(true|false)\b)": statements
+"(\b(boolean|short|int|float|long|double|String)\b)": variable
+"(\b(def)\b)": def
+"(\b(import)\b)": import
+"(\b(class)\b)": class
+"(\b(for|if|else|elif|while)\b)": forifwhile
+"(\b(public|static)\b)": publicstatic
